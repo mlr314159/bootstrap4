@@ -1,3 +1,29 @@
 body {
-    background-color: blue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.alert-container {
+    background-color: #aaa;
+}
+
+.callout-container{
+    height: 100vh;
+    background: url(../images/whiskey-background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.quotes-container{
+    background-color: #ccc;
+}
+
+.features-container{
+    background-color: #ddd;
 }
